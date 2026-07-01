@@ -1,19 +1,21 @@
 //Remove Duplicates from Sorted Array
-//Brute Force Approach-HashTable----T.C:O(N)------S.C:O(N)
+//Optimal Approach-Two Pointers----T.C:O(N)------S.C:O(1)
 package Amazon.Easy;
 import java.util.*;
 
-public class p1 {
-
+public class p2{
     public int removeDuplicates(int nums[]) {
-        HashSet<Integer> st = new HashSet<>();
-        for(int i=0;i<nums.length;i++)
-            st.add(nums[i]);
-
         int i=0;
-        for(int x:st)
-            nums[i++]=x;
-        return st.size();
+        for(int j=1;j<nums.length;j++){
+            if(nums[i]<nums[j])
+            {
+                int t=nums[i+1];
+                nums[i+1]=nums[j];
+                nums[j]=t;
+                i++;
+            }
+        }
+        return i+1;
     }
 
     public static void main(String[] args) {
