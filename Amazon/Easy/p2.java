@@ -1,7 +1,6 @@
 //Remove Duplicates from Sorted Array
 //Optimal Approach-Two Pointers----T.C:O(N)------S.C:O(1)
 package Amazon.Easy;
-import java.util.*;
 
 public class p2{
     public int removeDuplicates(int nums[]) {
