@@ -1,5 +1,5 @@
 //Partition List(LC 86)
-//Optimal Approach---Use PQ----T.C:O(n)------S.C:O(1)
+//Optimal Approach----T.C:O(n)------S.C:O(1)
 //USING THE LC TEMPLATE
 package Amazon.Medium;
 class ListNode {
