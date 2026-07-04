@@ -3,7 +3,7 @@
 //USING THE LC TEMPLATE
 
 package GS.Easy;
-class Solution {
+class p2{
     public int pivotIndex(int[] nums) {
         int n=nums.length;
         int s=0;
