@@ -4,7 +4,7 @@
 package Amazon.Medium;
 import java.util.*;
 
-class Solution {
+class p7{
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> res=new ArrayList<>();
         HashMap<String,List<String>> mp=new HashMap<>();
