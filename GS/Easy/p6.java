@@ -5,7 +5,7 @@
 package GS.Easy;
 import java.util.*;
 
-class Solution {
+class p6{
     public int findPairs(int[] nums, int k) {
         if(nums==null||nums.length==0||k<0)
         return 0;
