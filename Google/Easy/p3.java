@@ -1,9 +1,9 @@
 //Longest Common sequence(LC 128)
-//Optimal----Observe the pattern-----T.C:O(n)------S.C:O(1)
+//Optimal----Use sets-----T.C:O(n)------S.C:O(n)
 //USING THE LC TEMPLATE
 package Google.Easy;
 import java.util.*;
-class Solution {
+class p3{
     public int longestConsecutive(int[] nums) {
         Set<Integer> st=new HashSet<>();
         for(int n:nums)
