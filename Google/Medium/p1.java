@@ -4,7 +4,7 @@
 package Google.Medium;
 import java.util.*;
 
-class Solution {
+class p1{
     List<List<String>> res;
     public List<List<String>> partition(String s) {
         int l=s.length();

@@ -4,7 +4,7 @@
 package Google.Medium;
 
 
-class Solution {
+class p2{
     public void rotate(int[][] matrix) {
         int r=matrix.length,c=matrix[0].length;
         for(int i=0;i<r;i++)
