@@ -1,5 +1,5 @@
 //Longest word in dictionary through deleting(LC 524)
-//Optimal Soln-----subseq check & cal max-----T.C:O(n)------S.C:O(n)
+//Optimal Soln-----subseq check & cal max-----T.C:O(d.n)------S.C:O(1)
 //USING THE LC TEMPLATE
 package GS.Medium;
 import java.util.*;
