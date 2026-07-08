@@ -1,5 +1,5 @@
 //minimum window substring(LC 76)
-//Optimal----Use map and 2 pointer app-----T.C:O(n)------S.C:O(n)
+//Optimal----Use map and 2 pointer app-----T.C:O(m+n)------S.C:O(1)
 //USING THE LC TEMPLATE
 package GS.Medium;
 

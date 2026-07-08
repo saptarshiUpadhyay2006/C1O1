@@ -1,9 +1,9 @@
 //Count no of Teams(LC 1395)
-//Optimal---Use concept of ls,lg,rs,rg-----T.C:O(n)------S.C:O(n)
+//Optimal---Use concept of ls,lg,rs,rg-----T.C:O(n^2)------S.C:O(1)
 //USING THE LC TEMPLATE
 package GS.Medium;
 
-class Solution {
+class p7{
     public int numTeams(int[] rating) {
         int ls,lg,rs,rg;
         int s=0;
