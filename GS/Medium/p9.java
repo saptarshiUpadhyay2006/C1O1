@@ -1,5 +1,5 @@
 //Spiral Matrix(LC 54)
-//Optimal----Use 4ptrs---T.C:O(n)------S.C:O(n)
+//Optimal----Use 4ptrs---T.C:O(m.n)------S.C:O(m.n)
 //USING THE LC TEMPLATE
 package GS.Medium;
 import java.util.*;
