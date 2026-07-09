@@ -1,5 +1,5 @@
 //Subsets(LC 78)
-//Optimal---------T.C:O(n)------S.C:O(n)
+//Optimal----Basic iter-----T.C:O(n.2^n)------S.C:O(n.2^n)
 //USING THE LC TEMPLATE
 package Adobe.Medium;
 import java.util.*;
