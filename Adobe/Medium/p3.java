@@ -1,5 +1,5 @@
 //Equal Row & Col Pairs(LC 633)
-//Optimal-----Transpose and Match----T.C:O()------S.C:O(1)
+//Optimal-----Transpose and Match----T.C:O(n^3)------S.C:O(n^2)
 //USING THE LC TEMPLATE
 package Adobe.Medium;
 import java.util.*;
