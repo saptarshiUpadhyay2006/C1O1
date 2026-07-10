@@ -1,28 +1,25 @@
-//Determine if 2 strings are close(LC 1657)
-//Optimal-----HashSet----T.C:O(n)------S.C:O(1)
+//LCS(LC 128)
+//Optimal-----Use HashSet----T.C:O(n)------S.C:O(n)
 //USING THE LC TEMPLATE
 package Google.Medium;
 import java.util.*;
 
 class p9{
-    public boolean closeStrings(String word1, String word2) {
-        if(word1.length()!=word2.length())
-        return false;
-
-        int a[]=new int[26];
-        int b[]=new int[26];
-        for(int i=0;i<word1.length();i++)
-        a[word1.charAt(i)-'a']++;
-        for(int i=0;i<word2.length();i++)
-        b[word2.charAt(i)-'a']++;
-
-        for(int i=0;i<26;i++)
+    public int longestConsecutive(int[] nums) {
+        Set<Integer> st=new HashSet<>();
+        for(int n:nums)
+        st.add(n);
+        int s=0;
+        for(int i:st)
         {
-            if((a[i]==0 && b[i]!=0)||(a[i])!=0 && b[i]==0)
-            return false;
+            if(!st.contains(i-1))
+            {
+                int l=1;
+                while(st.contains(i+l))
+                l++;
+                s=Math.max(l,s);
+            }
         }
-        Arrays.sort(a);
-        Arrays.sort(b);
-        return Arrays.equals(a,b);
+        return s;
     }
 }
