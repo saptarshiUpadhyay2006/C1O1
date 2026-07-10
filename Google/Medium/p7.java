@@ -21,7 +21,7 @@ class Node {
     }
 }
 
-class Solution {
+class p7{
     public Node cloneGraph(Node node) {
         if(node==null)
         return null;
