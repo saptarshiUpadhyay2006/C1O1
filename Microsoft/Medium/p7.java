@@ -1,5 +1,5 @@
 //Del Node in LL(LC 237)
-//Optimal------T.C:O(n)------S.C:O(n)
+//Optimal---Node ops---T.C:O(n)------S.C:O(1)
 //USING THE LC TEMPLATE
 
 package Microsoft.Medium;
