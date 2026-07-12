@@ -1,5 +1,5 @@
 //Reorganize String(LC 767)
-//Optimal---Use PQ---T.C:O(n)------S.C:O(n)
+//Optimal---Use PQ---T.C:O(nlogk)------S.C:O(k)
 //USING THE LC TEMPLATE
 
 package Microsoft.Medium;
