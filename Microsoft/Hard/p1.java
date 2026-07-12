@@ -1,5 +1,5 @@
 //Longest Increasing Subsequence(LC 300)
-//Optimal---Use Dp----T.C:O(nlogk)------S.C:O(k)
+//Optimal---Use Dp----T.C:O(n^2)------S.C:O(n)
 //USING THE LC TEMPLATE
 
 package Microsoft.Hard;
