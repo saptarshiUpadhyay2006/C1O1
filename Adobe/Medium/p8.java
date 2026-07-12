@@ -1,4 +1,4 @@
-//Triangle(LC 120)
+//Minm no of swaps to make string balanced(LC 1963)
 //Optimal-----((no of mismatch)+1)/2------T.C:O(n)------S.C:O(1)
 //USING THE LC TEMPLATE
 package Adobe.Medium;

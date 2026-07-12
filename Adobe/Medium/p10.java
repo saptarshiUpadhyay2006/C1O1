@@ -1,4 +1,4 @@
-//Sort Colors(LC 75)
+//Maxm area of a piece of cake after horizontal & vertical cur(LC 1465)
 //Optimal-----computation----T.C:O(mlogm+nlogn)------S.C:O(1)
 //USING THE LC TEMPLATE
 package Adobe.Medium;

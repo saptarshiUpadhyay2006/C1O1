@@ -1,4 +1,4 @@
-//Maxm area of a piece of cake after horizontal & vertical cur(LC 1465)
+//Triangles(LC 120)
 //Optimal----Use dp-----T.C:O(n)^2------S.C:O(n)
 //USING THE LC TEMPLATE
 package Adobe.Medium;
