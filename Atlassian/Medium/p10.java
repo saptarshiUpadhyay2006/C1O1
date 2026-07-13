@@ -1,5 +1,5 @@
 //Maxm no of occurences of a substring(LC 1297)
-//Optimal---------T.C:O(n)------S.C:O(n)
+//Optimal----Comparing the 2maps-----T.C:O(n)------S.C:O(n)
 //USING THE LC TEMPLATE
 
 package Atlassian.Medium;
