@@ -5,7 +5,7 @@
 package Adobe.Hard;
 import java.util.*;
 
-class Solution {
+class p3{
     public int firstMissingPositive(int[] nums) {
         int n=nums.length;
         for(int i=0;i<n;i++)
