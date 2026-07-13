@@ -1,5 +1,5 @@
 //Online election(LC 911)
-//Optimal---------T.C:O(n^2)------S.C:O(n^2)
+//Optimal---------T.C:O(n)------S.C:O(n)
 //USING THE LC TEMPLATE
 
 package Atlassian.Medium;
