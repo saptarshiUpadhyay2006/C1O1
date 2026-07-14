@@ -1,10 +1,29 @@
-//Largest Rectangle in Histrogram(LC 84)
-//Optimal Approach----T.C:O(n)------S.C:O(n)
+//Maximal Rectangle(LC 85)
+//Optimal Approach----T.C:O(m*n)------S.C:O(n)
 //USING THE LC TEMPLATE
+
 package Google.Hard;
 
-class p1{
-    public int largestRectangleArea(int[] heights) {
+class p2{
+    public int maximalRectangle(char[][] matrix) {
+        int r=matrix.length,c=matrix[0].length;
+        int dp[]=new int[c];
+        int maxi=0;
+        for(int i=0;i<r;i++)
+        {
+            for(int j=0;j<c;j++)
+            {
+                if(matrix[i][j]=='1')
+                dp[j]=dp[j]+1;
+                else if(matrix[i][j]=='0')
+                dp[j]=0;
+            }
+            maxi=Math.max(fac(dp),maxi);
+        }
+        return maxi;
+    }
+    private int fac(int heights[])
+    {
         int len=heights.length;
         int lr[]=new int[len];
         int ll[]=new int[len];
