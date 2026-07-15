@@ -1,5 +1,5 @@
 //Sliding widow maxm(LC 239)
-//Optimal---------T.C:O(n)------S.C:O(n)
+//Optimal---------T.C:O(nlogn)------S.C:O(n)
 //USING THE LC TEMPLATE
 
 package Atlassian.Hard;
