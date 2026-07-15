@@ -1,5 +1,5 @@
 //Minm time to visit a cell in a grid(LC 2577)
-//Optimal---------T.C:O(n)------S.C:O(n)
+//Optimal---------T.C:O(n.m)------S.C:O(n.m)
 //USING THE LC TEMPLATE
 
 package Atlassian.Hard;
