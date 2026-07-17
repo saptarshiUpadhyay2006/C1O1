@@ -1,5 +1,5 @@
 //Remove duplicate letters(LC 316)
-//Optimal--------T.C:O()------S.C:O()
+//Optimal--------T.C:O(n)------S.C:O(n)
 //USING THE LC TEMPLATE
 
 package DEShaw.Medium;
