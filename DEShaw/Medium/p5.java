@@ -4,7 +4,7 @@
 
 package DEShaw.Medium;
 import java.util.*;
-class Solution {
+class p5{
     int dp[][];
 
     public int maxScore(int n, int k, int[][] stayScore, int[][] travelScore) {
