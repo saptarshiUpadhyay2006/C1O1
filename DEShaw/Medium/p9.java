@@ -30,7 +30,6 @@ class Solution {
             for(int  i=0 ; i<n ; i++){
                 if(in[i] == 0) queue.offer(i);
             }
-            int toposort[]=new int[n];
             while(!queue.isEmpty()){
                 int val=queue.poll();
                 for(int node:arr.get(val)){
