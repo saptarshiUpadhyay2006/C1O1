@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 import java.util.*;
-class Solution {
+class p25{
     public int[][] validArrangement(int[][] pairs) {
         int n = pairs.length;
         Map<Integer, List<Integer>> mp1=new HashMap<>();

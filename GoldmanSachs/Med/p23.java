@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 
-class Solution {
+class p23{
     public int maxProfit(int[] prices) {
         int p=0;
         for(int i=1;i<prices.length;i++)
