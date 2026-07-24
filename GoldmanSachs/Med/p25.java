@@ -28,7 +28,6 @@ class p25{
         str = pairs[0][0];
         Stack<Integer> st=new Stack<>();
         List<Integer> res=new ArrayList<>();
-        int curr=str;
         st.push(str);
         while(!st.isEmpty()) {
             int top=st.peek();
