@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 
-class Solution {
+class p30{
     public int minimumLength(String s) {
         int i=0,j=s.length()-1;
         while(i<j)
