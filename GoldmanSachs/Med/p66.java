@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 import java.util.*;
-class Solution {
+class p66{
     List<List<String>> res = new ArrayList<>();
     public List<List<String>> solveNQueens(int n) {
         char board[][]=new char[n][n];

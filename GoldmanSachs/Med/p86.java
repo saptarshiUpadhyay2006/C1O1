@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 import java.util.*;
-class Solution {
+class p86{
     public List<Integer> spiralOrder(int[][] matrix) {
         int m=matrix.length,n=matrix[0].length;
         int t=0,b=m-1,l=0,r=n-1;

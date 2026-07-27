@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 import java.util.*;
-class Solution {
+class p75{
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> arr=new ArrayList<>();
         List<int[]> lines=new ArrayList<>();

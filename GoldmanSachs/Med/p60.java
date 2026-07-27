@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 import java.util.*;
-class Solution {
+class p60{
     public int coinChange(int[] coins, int amount) {
         int dp[]=new int[amount+1];
         Arrays.fill(dp,amount+1);

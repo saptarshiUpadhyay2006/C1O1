@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 import java.util.*;
-class Solution {
+class p48{
     public int[] sortJumbled(int[] mapping, int[] nums) {
         Map<Integer,Integer> mp=new HashMap<>();
         for(int x:nums)

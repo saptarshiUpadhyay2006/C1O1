@@ -2,7 +2,7 @@
 
 package GoldmanSachs.Med;
 import java.util.*;
-class Solution {
+class p58{
     public boolean backspaceCompare(String s, String t) {
         int n1=s.length(),n2=t.length();
         Stack<Character> st=new Stack<>();

@@ -3,7 +3,7 @@
 
 package GoldmanSachs.Med;
 
-class p74{
+class p90{
     public boolean searchMatrix(int[][] matrix, int target) {
         int i=0,m=matrix.length,n=matrix[0].length,j=n-1;
         while(i>=0 && i<m && j>=0 && j<n)
