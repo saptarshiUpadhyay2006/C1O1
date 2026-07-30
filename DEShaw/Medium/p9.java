@@ -4,7 +4,7 @@
 
 package DEShaw.Medium;
 import java.util.*;
-class Solution {
+class p9{
     public int[] loudAndRich(int[][] richer, int[] quiet) {
         List<List<Integer>> arr=new ArrayList<>();
         int n=quiet.length;
