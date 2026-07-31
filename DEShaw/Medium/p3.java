@@ -4,7 +4,7 @@
 
 package DEShaw.Medium;
 import java.util.*;
-class Solution {
+class p3{
     public String reorganizeString(String s) {
         int cc[]=new int[26];
         for(char c:s.toCharArray())
