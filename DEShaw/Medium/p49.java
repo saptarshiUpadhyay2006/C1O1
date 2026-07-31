@@ -1,0 +1,37 @@
+//Spiral Matrix(LC 54)
+//four corner ptr approach
+
+package DEShaw.Medium;
+import java.util.*;
+class p49{
+    public List<Integer> spiralOrder(int[][] matrix) {
+        int m=matrix.length,n=matrix[0].length;
+        int t=0,b=m-1,l=0,r=n-1;
+        List<Integer> arr=new ArrayList<>();
+        while(t<=b && l<=r)
+        {
+            for(int i=l;i<=r;i++)
+            arr.add(matrix[t][i]);
+            t++;
+
+            for(int i=t;i<=b;i++)
+            arr.add(matrix[i][r]);
+            r--;
+
+            if(t<=b)
+            {
+                for(int i=r;i>=l;i--)
+                arr.add(matrix[b][i]);
+                b--;
+            }
+
+            if(l<=r)
+            {
+                for(int i=b;i>=t;i--)
+                arr.add(matrix[i][l]);
+                l++;
+            }
+        }
+        return arr;
+    }
+}
