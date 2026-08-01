@@ -3,7 +3,7 @@
 
 package DEShaw.Medium;
 import java.util.*;
-class Solution {
+class p50{
     public List<String> getchild(String s){
         List<String> l=new ArrayList<>();
         char arr[]=s.toCharArray();
