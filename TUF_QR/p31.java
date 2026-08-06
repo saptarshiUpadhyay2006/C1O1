@@ -1,0 +1,51 @@
+package TUF_QR;
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int data;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int val) { data = val; left = null, right = null }
+ * }
+ **/
+import java.util.HashMap;
+import java.util.Map;
+class p31{
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        Map<Integer, Integer> inMap = new HashMap<>();
+        for (int i = 0; i < inorder.length; i++) {
+            inMap.put(inorder[i], i);
+        }
+        TreeNode root = buildTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, inMap);
+
+        return root;
+    }
+    private TreeNode buildTree(int[] preorder, int preStart, int preEnd,
+                               int[] inorder, int inStart, int inEnd, Map<Integer, Integer> inMap) {
+        if (preStart > preEnd || inStart > inEnd) {
+            return null;
+        }
+        TreeNode root = new TreeNode(preorder[preStart]);
+        int inRoot = inMap.get(root.data);
+        int numsLeft = inRoot - inStart;
+        root.left = buildTree(preorder, preStart + 1, preStart + numsLeft,
+                inorder, inStart, inRoot - 1, inMap);
+        root.right = buildTree(preorder, preStart + numsLeft + 1, preEnd,
+                inorder, inRoot + 1, inEnd, inMap);
+        return root;
+    }
+    private void printInorder(TreeNode root) {
+        if (root != null) {
+            printInorder(root.left);
+            System.out.print(root.data + " ");
+            printInorder(root.right);
+        }
+    }
+    private void printArray(int[] arr) {
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
